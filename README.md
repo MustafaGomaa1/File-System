@@ -115,8 +115,8 @@ src/main/java/com/example/filesharing/
 │   └── FileRepository.java        # DB operations & lookup methods
 │
 ├── service/
-│   ├── FileStorageService.java    # Service interface
-│   └── FileStorageServiceImpl.java# Disk operations & business logic
+│   ├── FileService.java    # Service interface
+│   └── FileServiceImpl.java# Disk operations & business logic
 │
 └── util/
     └── RandomCodeGenerator.java   # Cryptographically secure random URL key generator
